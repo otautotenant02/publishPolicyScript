@@ -1,7 +1,7 @@
 <!-- OneTrust Privacy Notice Bundle start -->
 
 <!-- Drop-down elements that will control which notice is displayed -->
-<select id="bundlefor uk_0Dropdown"></select>
+<select id="filter1_3903255_0Dropdown"></select>
 
 <!-- Button element that will trigger the notice update -->
 <button id="otnotice-bundle-button">Update</button>
@@ -10,16 +10,16 @@
 <!-- Container in which the privacy notices will be rendered -->
 <div id="otnotice-bundle-container" class="otnotice"></div>
 
-<script src="https://auto1-ds-cdn.1trust.app/privacy-notice-scripts/otnotice-bundle-1.0.min.js" type="text/javascript" charset="UTF-8" id="otprivacy-notice-script">
-    settings="eyJjYWxsYmFja1VybCI6Imh0dHBzOi8vYXV0bzEtZHMuMXRydXN0LmFwcC9yZXF1ZXN0L3YxL3ByaXZhY3lOb3RpY2VzL3N0YXRzL3ZpZXdzIn0=";
-    bundleUrl="https://auto1-ds-cdn.1trust.app/e65bcb89-853e-480e-9a7c-4a79c39afec2/notice-bundles/draft/cdcef314-0f8a-4cc4-a135-60f91bae8136.json";
+<script src="https://qa-ds-cdn.1trust.app/privacy-notice-scripts/otnotice-bundle-1.0.min.js" type="text/javascript" charset="UTF-8" id="otprivacy-notice-script">
+    settings="eyJjYWxsYmFja1VybCI6Imh0dHBzOi8vcWEtcG9ydGFsLjF0cnVzdC5hcHAvcmVxdWVzdC92MS9wcml2YWN5Tm90aWNlcy9zdGF0cy92aWV3cyJ9";
+    bundleUrl="https://qa-ds-cdn.1trust.app/c89b1b6b-5e02-4c9a-9d20-e6c00f2a0c32/notice-bundles/draft/b845a7e7-d8d4-47bf-a372-8f813d876bcc.json";
 </script>
 
 <script type="text/javascript" charset="UTF-8">
     OneTrust.NoticeManagerApi.Initialized.then(function() {
         OneTrust.NoticeManagerApi.InitializeOptions(
             "otnotice-bundle-container",
-            ["bundlefor uk_0Dropdown"],
+            ["filter1_3903255_0Dropdown"],
             "otnotice-bundle-button"
         );
     });
